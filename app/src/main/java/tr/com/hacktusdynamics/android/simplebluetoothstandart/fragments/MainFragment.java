@@ -1,4 +1,4 @@
-package tr.com.hacktusdynamics.android.simplebluetooth;
+package tr.com.hacktusdynamics.android.simplebluetoothstandart.fragments;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
@@ -9,6 +9,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
+
+import tr.com.hacktusdynamics.android.simplebluetoothstandart.R;
 
 
 /**
@@ -38,7 +40,7 @@ public class MainFragment extends Fragment {
          as you specify a parent activity in AndroidManifest.xml.*/
         int id = item.getItemId();
         if(id == R.id.action_refresh){
-            Toast.makeText(getActivity(), TAG + " refresh clicked.", Toast.LENGTH_LONG).show();
+            Toast.makeText(getActivity(), TAG + getString(R.string.refresh_clicked), Toast.LENGTH_LONG).show();
             return true;
         }
 
@@ -51,6 +53,7 @@ public class MainFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_main, container, false);
 
 
+        
         return rootView;
     }
 }

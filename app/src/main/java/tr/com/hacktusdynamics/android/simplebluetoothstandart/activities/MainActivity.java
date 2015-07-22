@@ -1,10 +1,13 @@
-package tr.com.hacktusdynamics.android.simplebluetooth;
+package tr.com.hacktusdynamics.android.simplebluetoothstandart.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import tr.com.hacktusdynamics.android.simplebluetoothstandart.R;
+import tr.com.hacktusdynamics.android.simplebluetoothstandart.fragments.MainFragment;
 
 
 public class MainActivity extends AppCompatActivity {

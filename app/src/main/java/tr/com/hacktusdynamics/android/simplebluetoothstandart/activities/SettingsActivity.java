@@ -1,9 +1,11 @@
-package tr.com.hacktusdynamics.android.simplebluetooth;
+package tr.com.hacktusdynamics.android.simplebluetoothstandart.activities;
 
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
+
+import tr.com.hacktusdynamics.android.simplebluetoothstandart.R;
 
 public class SettingsActivity extends PreferenceActivity implements
         Preference.OnPreferenceChangeListener {

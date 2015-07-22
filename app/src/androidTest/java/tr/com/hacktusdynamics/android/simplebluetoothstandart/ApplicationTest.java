@@ -1,4 +1,4 @@
-package tr.com.hacktusdynamics.android.simplebluetooth;
+package tr.com.hacktusdynamics.android.simplebluetoothstandart;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
